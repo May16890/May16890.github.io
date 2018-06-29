@@ -1,0 +1,151 @@
+body{
+  overflow-x: hidden;
+}
+p{
+  font-family: "Avenir", "Helvetica", "Arial" sans-serif;
+}
+input{
+  border: none;
+  color: #4A4A4A;
+}
+select{
+  border: none;
+  color: #4A4A4A;
+  background-color: #fff;
+}
+.container{
+  margin-top: 60px;
+}
+.formInformations{
+  width: 310px;
+  margin: 0 auto;
+  display: flex;
+  margin-top: 25px;
+}
+.line{
+  background-color: #4A4A4A;
+  width: 310px;
+  height: 1px;
+  margin-top: 20px;
+  margin-bottom: 50px;
+}
+.lineTwo{
+  background-color: #4A4A4A;
+  width: 310px;
+  height: 1px;
+  margin-bottom: 30px;
+}
+.logoContainer{
+  display: flex;
+}
+.smallLine{
+  background-color: #4A4A4A;
+  width: 230px;
+  height: 1px;
+  margin-top: 20px;
+  margin-bottom: 70px;
+}
+.companyActivity{
+  width: 200px;
+}
+.button{
+  display: flex;
+  margin-left: 160px;
+  margin-bottom: 103px;
+}
+.cancel{
+  margin-left: 20px;
+  border: none;
+}
+.submit{
+  border: none;
+}
+
+.informationsTitle{
+  font-size: 14px;
+}
+.order{
+  font-size: 14px;
+  color: grey;
+  margin-bottom: 30px;
+}
+.orderTwo{
+  font-size: 14px;
+  color: grey;
+}
+.titleContainer{
+  display: flex;
+}
+.companyActivity{
+
+  margin-bottom: 50px;
+}
+.planetChoice{
+  margin-bottom: 50px;
+}
+.products{
+  margin-bottom: 50px;
+}
+.download{
+  margin-left: 35px;
+  width: 60px;
+}
+
+.informationsTitle{
+  font-size: 11px;
+  color: #4A4A4A;
+}
+.companyActivity{
+  width: 302px;
+  height: 80px;
+  margin-bottom: 50px;
+}
+
+@media(min-width: 750px){
+  .formInformations{
+    width: 660px;
+    margin: 0 auto;
+    display: flex;
+    margin-top: 25px;
+  }
+  .line{
+    background-color: #4A4A4A;
+    width: 650px;
+  }
+  .lineTwo{
+    background-color: #4A4A4A;
+    width: 650px;
+    height: 1px;
+    margin-top: 20px;
+    margin-bottom: 30px;
+  }
+  .smallLine{
+    background-color: #4A4A4A;
+    width: 600px;
+  }
+  .button{
+  margin-left: 505px;
+  }
+  .order{
+    font-size: 14px;
+    color: grey;
+  }
+  .orderTwo{
+    font-size: 14px;
+    color: grey;
+  }
+  .download{
+    margin-left: 80px;
+  }
+  .companyActivity{
+    width: 650px;
+    height: 80px;
+    margin-bottom: 50px;
+  }
+  .planetChoice{
+    margin-bottom: 50px;
+  }
+  .products{
+    margin-bottom: 50px;
+  }
+}

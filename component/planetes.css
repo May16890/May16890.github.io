@@ -1,0 +1,140 @@
+
+.firstPlanet{
+  width: 310px;
+  margin: 0 auto;
+  display: flex;
+  margin-top: 25px;
+}
+
+.industry{
+font-family: "Avenir", sans-serif;
+font-size: 12px;
+font-weight: 500;
+color: #2651F5;
+margin-bottom: 0px;
+}
+
+.planetName{
+font-size: 20px;
+font-weight: 900;
+margin-top: 0px;
+}
+
+.pic{
+  margin-top: 30px;
+  margin-left: 35px;
+}
+
+.planetDescription{
+margin-top: 34px;
+margin-bottom: 25px;
+width: 100%;
+line-height: 21px;
+font-size: 14px;
+font-weight: 500;
+}
+
+.blueLine{
+  margin: 0 auto;
+  width: 2px;
+  height: 30px;
+  border-radius: 5px;
+  background-color: #2651F5;
+}
+.beigeLine{
+  margin: 0 auto;
+  width: 2px;
+  height: 30px;
+  border-radius: 5px;
+  background-color: #F1EAD9;
+}
+.orangeLine{
+  margin: 0 auto;
+  width: 2px;
+  height: 30px;
+  border-radius: 5px;
+  background-color: #DB632D;
+}
+
+.blackLine{
+  margin: 0 auto;
+  width: 2px;
+  height: 30px;
+  border-radius: 5px;
+  background-color: #000000;
+}
+
+@media(min-width: 750px){
+  .firstPlanet{
+    width: 700px;
+  }
+  .pic{
+    margin-left: 220px;
+  }
+  .planetDescription{
+    width: 700px;
+  }
+}
+
+@media(min-width: 1024px){
+  .firstPlanet{
+    width: 1000px;
+  }
+  .pic{
+    margin-left: 220px;
+  }
+  .content{
+    display: flex;
+  }
+  .titleContainer{
+    margin-top: 100px;
+    margin-left: 200px;
+  }
+  .planetDescription{
+    width: 1000px;
+  }
+  .resize {
+    width: 300px;
+  }
+}
+
+
+@media(min-width: 1280px){
+  .firstPlanet{
+    position: relative;
+    width: 1000px;
+  }
+  .content{
+    justify-content: space-between;
+  }
+  .planetName{
+    margin-top: 20px;
+  }
+  .pic{
+    position: absolute;
+    margin-left: 0px;
+    top: 50px;
+    right: 100px;
+    margin-top: 50px;
+  }
+  .titleContainer{
+    margin-top: 100px;
+    margin-left: 0px;
+    margin-bottom: 20px;
+  }
+  .planetDescription{
+    margin: 0;
+    margin-top: 0px;
+    margin-bottom: 70px;
+    width: 500px;
+    margin-right: 0;
+    padding: 0;
+  }
+
+  .left{
+    margin-right: 600px;
+  }
+  .right{
+    margin-left: 600px;
+  }
+}

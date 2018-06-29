@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <link rel="stylesheet" href="style2.css">
+  <link rel="stylesheet" media="screen and (min-width: 640px)" href="styles/desktop.css">
+  <link rel="stylesheet" media="screen and (max-width: 639px)" href="styles/mobile.css">
+  <link rel="stylesheet" href="./flexboxgrid/css/flexboxgrid.min.css" type="text/css">
+  <link rel="stylesheet" href="styles/style2.css">
+    <link rel="stylesheet" href="component/delocaliser.css">
+  <link rel="stylesheet" media="screen and (max-width: 639px)" href="styles/presets_mobile.css">
+  <link rel="stylesheet" media="screen and (min-width: 640px)" href="styles/presets_desktop.css">
+  <title>Se délocaliser</title>
+</head>
+<body>
+  <div class="bg_menu">
+    <div class="close">
+      <img src="img/cancel.svg" alt="fermer" style="width: 5vw;padding: 2vw 2vw 2vw 2vw;">
+    </div>
+    <nav>
+      <li><img src="img/right-arrow.svg" alt="aller à" style="width:3vw;"><a href="index.html"> Présentation du concept</a></li>
+      <li><img src="img/right-arrow.svg" alt="aller à" style="width:3vw;"><a href="simulateur.html"> Simulateur</a></li>
+      <li><img src="img/right-arrow.svg" alt="aller à" style="width:3vw;"><a href="planete.html"> Les planètes</a></li>
+      <li><img src="img/right-arrow.svg" alt="aller à" style="width:3vw;"><a href="companies.html"> Les entreprises</a></li>
+      <li><img src="img/right-arrow.svg" alt="aller à" style="width:3vw;"><a href="index2.html"> Se délocaliser</a></li>
+      <!-- <li><img src="img/search%20icon.png" alt="search_logo" class="header_search"></li> -->
+  </div>
+
+  <header>
+    <div class="header_connection">
+      <a href="#">Se connecter</a>
+      <a href="#">FR</a><a href="#">|</a><a href="#">EN</a>
+    </div>
+    <div class="header_topBar">
+      <div class="thebg">
+        <img src="img/final%20logo@2x.png" alt="OPU logo" class="header_logo">
+      </div>
+      <nav class="theNav">
+        <li><a href="index.html">Présentation du concept</a></li>
+        <li><a href="simulateur.html">Simulateur</a></li>
+        <li><a href="planete.html">Les planètes</a></li>
+        <li><a href="company.html">Les entreprises</a></li>
+        <li><a href="index2.html">Se délocaliser</a></li>
+        <li><img src="img/search%20icon.png" alt="search_logo" class="header_search"></li>
+      </nav>
+      <div>
+        <img src="img/BURGER%20MENU@2x.png" alt="burger menu" class="header_bg">
+      </div>
+    </div>
+  </header>
+
+  <section class="formInformations">
+    <div class="container">
+      <div class="row">
+        <div class="col-xs-10 col-sm-10 col-md-10 col-lg-10">
+          <form class="name" action="index.html" method="post">
+            <input placeholder="NOM ET PRÉNOM" type="text" name="NOM ET PRÉNOM" > <br>
+            <div class="line"></div>
+            <input placeholder="NOM DE L’ENTREPRISE" type="text" name="NOM DE L’ENTREPRISE" >
+            <div class="line"></div>
+          </form>
+          <select class="companyContainer" name="companyType">
+            <option value="Grande entreprise (GE)">Grande entreprise (GE)</option>
+            <option value="Taille intérmédiaire (ETI)">Taille intérmédiaire (ETI)</option>
+            <option value="Petite et moyenne (PME)">Petite et moyenne (PME)</option>
+            <option value="Micro entreprise (TPE)">Micro entreprise (TPE)</option>
+          </select>
+          <div class="line"></div>
+          <form class="personnalInformations" action="index.html" method="post">
+            <p class="informationsTitle">LOGO</p>
+            <div class="logoContainer">
+              <div class="smallLine"></div>
+              <input class="download" type="file" name="TÉLÉCHARGER" value=""><br>
+            </div>
+            <input placeholder="TÉLÉPHONE" type="text" name="TÉLÉPHONE"> <br>
+            <div class="line"></div>
+            <input placeholder="E-MAIL" type="text" name="E-MAIL"> <br>
+            <div class="line"></div>
+            <p class="informationsTitle">ACTIVITÉ DE L’ENTREPRISE</p>
+            <div class="line"></div>
+            <textarea class="companyActivity" placeholder="ENTREZ VOTRE TEXTE ICI" name="name" rows="8" cols="80"></textarea>
+          </form>
+
+          <p class="informationsTitle">PLANÈTE CHOISIE</p>
+          <p class="order">(pour effectuer un choix multiple : ctrl+ clic  OU cmd + clic) </p>
+          <div class="lineTwo"></div>
+
+          <select class="planetChoice" name="planetChoice" multiple>
+            <option value="Nidalvellir">Nidalvellir</option>
+            <option value="Kamino">Kamino</option>
+            <option value="Alpha">Alpha</option>
+            <option value="Sakaar">Sakaar</option>
+            <option value="Xandar">Xandar</option>
+            <option value="Mustafar">Mustafar</option>
+          </select> <br>
+
+          <p class="informationsTitle">PRODUITS MANUFACTURÉS, MATÉRIAUX</p>
+          <p class="order">(pour effectuer un choix multiple : ctrl+ clic  OU cmd + clic) </p>
+          <div class="lineTwo"></div>
+
+          <select class="products" name="products" multiple>
+            <option value="productOne">1</option>
+            <option value="productTwo">1</option>
+            <option value="productThree">1</option>
+            <option value="productFour">1</option>
+            <option value="productFive">1</option>
+            <option value="productSix">1</option>
+          </select> <br>
+          <div class="button">
+            <button class="submit" type="button" name="button">ENVOYER</button> <br>
+            <button class="cancel" type="button" name="button">ANNULER</button> <br>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <footer>
+    <div class="footer_container">
+
+      <div class="footer_linkContainer">
+        <a class="section_p" href="#">Conditions d'utilisation</a>
+        <a class="section_p" href="#">Confidentialité de l’information</a>
+        <a class="section_p" href="#">Contactez-nous</a>
+        <a class="section_p" href="#">Droits d’auteur</a>
+      </div>
+
+      <div class="footer_otherLinksContainer">
+        <div>
+          <img src="img/final%20logo@2x.png" alt="OPU logo" class="footer_logo">
+        </div>
+        <a href="#" class="section_p">Organisation des Planètes Unies</a>
+      </div>
+    </div>
+
+      <div class="footer_link_networks">
+        <a href="#">
+          <img src="img/fb.png" alt="page facebook">
+        </a>
+        <a href="#">
+          <img src="img/tw.png" alt="compte twitter ">
+        </a>
+        <a href="#">
+          <img src="img/ln.png" alt="compte LinkedIn">
+        </a>
+    </div>
+  </footer>
+  <script src="script.js"></script>
+
+</body>
+</html>
